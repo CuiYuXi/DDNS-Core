@@ -39,7 +39,7 @@ namespace DDNS.Core
                             {
                                 case "dnspod":
                                     Console.WriteLine("\n 【DNSPod】");
-                                    //DNSPod.Instance().UpdateDNSPod(item, publicIPv4, "");
+                                    DNSPod.Instance().UpdateDNSPod(item, publicIPv4, "");
                                     break;
                                 default:
                                     break;
