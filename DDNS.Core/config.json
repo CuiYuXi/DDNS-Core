@@ -1,0 +1,48 @@
+﻿{
+  "ThreadSleep": 300000,
+  "Config": [
+    {
+      "IsEnable": false,
+      "remark": "备注信息可以随便写",
+      "id": "12345",
+      "token": "tokenkey",
+      "dnsType": "dnspod 或 alidns 或 dnscom 或 cloudflare 或 he 或 huaweidns 或 callback",
+      "ipv4": [
+        {
+          "domain": "studenty.cn",
+          "sub_domain": ""
+        },
+        {
+          "domain": "studenty.cn",
+          "sub_domain": "ddns_01"
+        }
+      ],
+      "ipv6": [
+        {
+          "domain": "",
+          "sub_domain": ""
+        }
+      ],
+      "ttl": 600
+    },
+    {
+      "IsEnable": true,
+      "remark": "备注信息可以随便写",
+      "id": "12345",
+      "token": "tokenkey",
+      "dnsType": "dnspod",
+      "ipv4": [
+        {
+          "domain": "studenty.cn",
+          "sub_domain": ""
+        },
+        {
+          "domain": "studenty.cn",
+          "sub_domain": "ddns_01"
+        }
+      ],
+      "ipv6": [],
+      "ttl": 600
+    }
+  ]
+}
