@@ -4,7 +4,7 @@
 支持自动创建域名记录。
 
 > 找了一圈没有合适的就自己写一个吧 初次提交 些许潦草 先解自己燃眉之急 后面慢慢优化
-> 目前只支持DNSPod ipv4 后期会慢慢扩展其他服务商和 ipv6
+> 目前只支持[DNSPod,alidns] ipv4 后期会慢慢扩展其他服务商和 ipv6
 ## Features
 
 - 兼容和跨平台:
@@ -20,7 +20,7 @@
   - [x] 公网 IPv4 / IPv6
 - 服务商支持:
   - [x] [DNSPOD](https://www.dnspod.cn/)
-  - [ ] [阿里 DNS](http://www.alidns.com/)
+  - [x] [阿里 DNS](http://www.alidns.com/)
   - [ ] [DNS.COM](https://www.dns.com/)
   - [ ] [DNSPOD 国际版](https://www.dnspod.com/)
   - [ ] [CloudFlare](https://www.cloudflare.com/)
