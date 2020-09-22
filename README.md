@@ -31,6 +31,25 @@
 
 ### ① 安装
 
+- #### 二进制版
+- Windows [DDNS.Core-win-x86](https://github.com/CuiYuXi/DDNS-Core/releases)
+- Linux [DDNS.Core-linux-x64](https://github.com/CuiYuXi/DDNS-Core/releases)
+- Mac OSX 敬请期待
+
+#### 各平台下载/使用方式
+<details>
+ <summary markdown="span">Windows</summary>
+ 
+1.下载DDNS.Core-win-x86.zip    
+2.解压后 运行文件夹 DDNS.Core.exe  
+</details>
+
+<details>
+ <summary markdown="span">Linux</summary>
+ 
+1.下载DDNS.Core-linux-x64  
+2.解压后 运行文件夹 DDNS.Core
+</details>
 
 ### ② 快速配置
 
