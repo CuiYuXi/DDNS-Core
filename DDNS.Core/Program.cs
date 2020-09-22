@@ -27,7 +27,7 @@ namespace DDNS.Core
                 string ipv4 = string.Empty;
 
                 Console.WriteLine("DDNS.Core 1.0.0");
-                Console.WriteLine($"公网ipv4：{ IpHelper.GetPublicIPv4()}");
+                //Console.WriteLine($"公网ipv4：{ IpHelper.GetPublicIPv4()}");
                 while (true)
                 {
                     string publicIPv4 = IpHelper.GetPublicIPv4();
