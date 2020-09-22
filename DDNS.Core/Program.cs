@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
+using Aliyun.Acs.Core.Exceptions;
 using DDNS.Core.Model;
 using DDNS.Core.Model.DNSPod;
 using DDNS.Core.Plugin;
@@ -41,6 +42,10 @@ namespace DDNS.Core
                                     Console.WriteLine("\n 【DNSPod】");
                                     DNSPod.Instance().UpdateDNSPod(item, publicIPv4, "");
                                     break;
+                                case "alidns":
+                                    Console.WriteLine("\n 【alidns】");
+                                    AliyunDNS.Instance().UpdateAliyunDNS(item, publicIPv4, "");
+                                    break;
                                 default:
                                     break;
                             }
@@ -55,7 +60,6 @@ namespace DDNS.Core
             }
             catch (Exception)
             {
-
                 throw;
             }
         }

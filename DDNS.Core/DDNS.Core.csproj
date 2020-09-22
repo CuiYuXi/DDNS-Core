@@ -22,11 +22,10 @@
 
   <ItemGroup>
     <Folder Include="Utils\" />
-    <Folder Include="Plugin\" />
-    <Folder Include="Model\" />
     <Folder Include="Model\DNSPod\" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="aliyun-net-sdk-alidns" Version="2.0.18" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="nulastudio.NetCoreBeauty" Version="1.2.9" />
   </ItemGroup>
