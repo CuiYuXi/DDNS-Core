@@ -121,7 +121,7 @@ namespace DDNS.Core.Plugin
                     }
                     else
                     {
-                        Console.WriteLine(outRecordModify.record.ToString());
+                        Console.WriteLine(JsonConvert.SerializeObject(outRecordModify.status));
                     }
                 }
                 else
@@ -135,7 +135,7 @@ namespace DDNS.Core.Plugin
                     }
                     else
                     {
-                        Console.WriteLine(outRecordCreate.record.ToString());
+                        Console.WriteLine(JsonConvert.SerializeObject(outRecordCreate.status));
                     }
                 }
             }
