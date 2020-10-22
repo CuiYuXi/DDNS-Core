@@ -15,22 +15,21 @@ namespace DDNS.Core
 {
     class Program
     {
+        #region  获取Json文件配置信息
+        private static string path = AppDomain.CurrentDomain.BaseDirectory + "config.json";
+        private static string josnString = File.ReadAllText(path, Encoding.Default);
+        private static ConfigModel configModel = JsonConvert.DeserializeObject<ConfigModel>(josnString);
+        //var config = configModel.Config.Where(x => x.IsEnable);
+        #endregion
         static void Main(string[] args)
         {
             try
-            {
-                #region  获取Json文件配置信息
-                string path = AppDomain.CurrentDomain.BaseDirectory + "config.json";
-                string josnString = File.ReadAllText(path, Encoding.Default);
-                ConfigModel configModel = JsonConvert.DeserializeObject<ConfigModel>(josnString);
-                var config = configModel.Config.Where(x => x.IsEnable);
-                #endregion
+            {               
                 string ipv4 = string.Empty;
-
-                Console.WriteLine("DDNS.Core 1.0.0");
-                //Console.WriteLine($"公网ipv4：{ IpHelper.GetPublicIPv4()}");
+                Console.WriteLine("DDNS.Core 1.1.1");
                 while (true)
                 {
+                    var config = configModel.Config.Where(x => x.IsEnable);
                     string publicIPv4 = IpHelper.GetPublicIPv4();
                     if (string.IsNullOrEmpty(ipv4) || ipv4 != publicIPv4)
                     {
