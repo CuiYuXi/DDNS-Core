@@ -38,6 +38,7 @@ namespace DDNS.Core.Plugin
                           $"&record_line_id={info.record_line_id}&keyword={info.keyword}",
             };
             HttpResult result = http.GetHtml(item);
+            Console.WriteLine("Log:" + result.Html);
             return JsonConvert.DeserializeObject<OutDNSPodVO>(result.Html);
         }
 
