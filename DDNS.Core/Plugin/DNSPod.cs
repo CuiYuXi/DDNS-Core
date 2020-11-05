@@ -24,8 +24,9 @@ namespace DDNS.Core.Plugin
         /// <returns></returns>
         public OutDNSPodVO RecordList(InDNSPodVO info)
         {
+            Console.WriteLine("domain:" + info.domain);
             info.domain = !string.IsNullOrEmpty(info.domain) ? $"&domain={info.domain}" : $"&domain_id={info.domain_id}";
-
+            Console.WriteLine("参数：" + JsonConvert.SerializeObject(info));
             HttpHelper http = new HttpHelper();
             HttpItem item = new HttpItem()
             {
@@ -38,6 +39,7 @@ namespace DDNS.Core.Plugin
                           $"&record_line_id={info.record_line_id}&keyword={info.keyword}",
             };
             HttpResult result = http.GetHtml(item);
+            
             Console.WriteLine("Log:" + result.Html);
             return JsonConvert.DeserializeObject<OutDNSPodVO>(result.Html);
         }
