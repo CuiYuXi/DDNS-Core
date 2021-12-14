@@ -151,7 +151,7 @@
   <summary markdown="span"> 问题排查反馈
 </summary>
 
-1. 先确认排查是否是系统/网络环境问题
+1. 先确认排查是否是系统/网络环境问题。
 2. 在[issues](https://github.com/CuiYuXi/DDNS-Core/issues)中搜索是否有类似问题
 3. 前两者均无法解决或者确定是 bug,[在此新建 issue](https://github.com/CuiYuXi/DDNS-Core/issues/new)
    - [ ] 附上这些内容 **运行版本和方式**,**系统环境**, **出错日志**,**去掉 id/token**的配置文件
