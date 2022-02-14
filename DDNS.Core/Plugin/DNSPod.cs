@@ -18,7 +18,7 @@ namespace DDNS.Core.Plugin
         }
 
         /// <summary>
-        /// 获取记录列表
+        /// 获取记录列表。
         /// </summary>
         /// <param name="info"></param>
         /// <returns></returns>
