@@ -6,7 +6,7 @@ namespace DDNS.Core.Plugin
 {
     public class DNSPodCom
     {
-        #region Py版
+        #region Py版。
 //        # coding=utf-8
 //"""
 //DNSCOM API
