@@ -5,6 +5,10 @@
 
 > 找了一圈没有合适的就自己写一个吧 初次提交 些许潦草 先解自己燃眉之急 后面慢慢优化
 > 目前只支持[DNSPod,alidns] ipv4 后期会慢慢扩展其他服务商和 ipv6
+
+## 本项目即将得到[JetBrains](https://www.jetbrains.com/shop/eform/opensource)的支持！  
+<img src="https://www.jetbrains.com/shop/static/images/jetbrains-logo-inv.svg" height="100">     
+
 ## Features
 
 - 兼容和跨平台:
