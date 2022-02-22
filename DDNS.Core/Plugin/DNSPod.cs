@@ -115,8 +115,8 @@ namespace DDNS.Core.Plugin
                 if (records != null)
                 {
                     info.record_id = records[0].id;
-                    info.value = ipv4;
-                    if (records[0].value == ipv4)
+                    info.value = ipv4.Trim();
+                    if (records[0].value == ipv4.Trim())
                     {
                         Console.WriteLine($"域名主机记录：{records[0].name}.{ipv4Item.domain}");
                         Console.WriteLine($"域名记录值：{records[0].value}");
@@ -127,7 +127,7 @@ namespace DDNS.Core.Plugin
                         if (outRecordModify.status.code == "1")
                         {
                             Console.WriteLine($"域名主机记录：{records[0].name}.{ipv4Item.domain}");
-                            Console.WriteLine($"域名记录值更新：{records[0].value}->{ipv4}");
+                            Console.WriteLine($"域名记录值更新：{records[0].value}->{ipv4.Trim()}");
                         }
                         else
                         {
