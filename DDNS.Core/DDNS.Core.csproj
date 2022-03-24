@@ -21,7 +21,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Utils\" />
+    <Compile Remove="Utils\ADHelper\**" />
+    <Compile Remove="Utils\AliyunLive\**" />
+    <EmbeddedResource Remove="Utils\ADHelper\**" />
+    <EmbeddedResource Remove="Utils\AliyunLive\**" />
+    <None Remove="Utils\ADHelper\**" />
+    <None Remove="Utils\AliyunLive\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Model\DNSPod\" />
   </ItemGroup>
   <ItemGroup>
