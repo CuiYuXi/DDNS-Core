@@ -23,10 +23,13 @@
   <ItemGroup>
     <Compile Remove="Utils\ADHelper\**" />
     <Compile Remove="Utils\AliyunLive\**" />
+    <Compile Remove="Utils\BarCodeHelper\**" />
     <EmbeddedResource Remove="Utils\ADHelper\**" />
     <EmbeddedResource Remove="Utils\AliyunLive\**" />
+    <EmbeddedResource Remove="Utils\BarCodeHelper\**" />
     <None Remove="Utils\ADHelper\**" />
     <None Remove="Utils\AliyunLive\**" />
+    <None Remove="Utils\BarCodeHelper\**" />
   </ItemGroup>
 
   <ItemGroup>
