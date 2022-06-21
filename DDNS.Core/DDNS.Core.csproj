@@ -27,6 +27,7 @@
     <Compile Remove="Utils\BarCodeToHTML\**" />
     <Compile Remove="Utils\BartenderHelper\**" />
     <Compile Remove="Utils\BindDataControl\**" />
+    <Compile Remove="Utils\CacheHelper\**" />
     <Compile Remove="Utils\CNDate\**" />
     <Compile Remove="Utils\CSVHelper\**" />
     <EmbeddedResource Remove="Utils\ADHelper\**" />
@@ -35,6 +36,7 @@
     <EmbeddedResource Remove="Utils\BarCodeToHTML\**" />
     <EmbeddedResource Remove="Utils\BartenderHelper\**" />
     <EmbeddedResource Remove="Utils\BindDataControl\**" />
+    <EmbeddedResource Remove="Utils\CacheHelper\**" />
     <EmbeddedResource Remove="Utils\CNDate\**" />
     <EmbeddedResource Remove="Utils\CSVHelper\**" />
     <None Remove="Utils\ADHelper\**" />
@@ -43,6 +45,7 @@
     <None Remove="Utils\BarCodeToHTML\**" />
     <None Remove="Utils\BartenderHelper\**" />
     <None Remove="Utils\BindDataControl\**" />
+    <None Remove="Utils\CacheHelper\**" />
     <None Remove="Utils\CNDate\**" />
     <None Remove="Utils\CSVHelper\**" />
   </ItemGroup>
