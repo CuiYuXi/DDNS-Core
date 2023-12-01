@@ -157,7 +157,3 @@
 3. 前两者均无法解决或者确定是 bug,[在此新建 issue](https://github.com/CuiYuXi/DDNS-Core/issues/new)
    - [ ] 附上这些内容 **运行版本和方式**,**系统环境**, **出错日志**,**去掉 id/token**的配置文件
 </details>
-
-
-## 本项目即将得到[JetBrains](https://www.jetbrains.com/shop/eform/opensource)的支持！  
-<img src="https://www.jetbrains.com/shop/static/images/jetbrains-logo-inv.svg" height="100">     
